@@ -1,4 +1,4 @@
-import { computed, isRef, Ref } from 'vue'
+import { computed, Ref } from 'vue'
 import { Todo } from '@/types/todo'
 
 export default (todos: Ref<Todo[]>) => {
